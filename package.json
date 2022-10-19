@@ -1,0 +1,21 @@
+{
+  "name": "typescriptsandbox",
+  "version": "1.0.0",
+  "description": "Sandbox project in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Michel Lalmohamed",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/spotify-web-api-node": "^5.0.7",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.18",
+    "rss-parser": "^3.12.0",
+    "rss-to-json": "^2.0.2",
+    "spotify-web-api-node": "^5.0.2"
+  }
+}
