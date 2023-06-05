@@ -18,3 +18,5 @@ function searchGiantBombCastByDate(year: string, month: string){
 searchGiantBombCastByDate("2017","03");
 
 searchGiantBombCastByDate("2014","07");
+
+searchGiantBombCastByDate("2016","01");
