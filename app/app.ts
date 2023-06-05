@@ -15,9 +15,9 @@ function searchGiantBombCastByDate(year: string, month: string){
     }
 }
 
-function searchGiantBombCastDescription(year: string, searchParam: string){
+function searchGiantBombCastDescription(searchParam: string){
     for (const key in bombCastSpotifyJson.feed.episodes) {
-        if(key.toString().includes(`${year}`)){
+        // if(key.toString().includes(`${year}`)){
             // @ts-ignore
             if(bombCastSpotifyJson.feed.episodes[key].description.toString().includes(searchParam)){
                 console.log(key);
@@ -29,7 +29,7 @@ function searchGiantBombCastDescription(year: string, searchParam: string){
                 console.log(bombCastSpotifyJson.feed.episodes[key].external_urls.spotify);
                 console.log("");
             }
-        }
+        // }
 
     } 
         
@@ -41,4 +41,8 @@ function searchGiantBombCastDescription(year: string, searchParam: string){
 
 // searchGiantBombCastByDate("2016","01");
 
-searchGiantBombCastDescription("2015","New Yawk");
+searchGiantBombCastDescription("New Yawk");
+
+searchGiantBombCastDescription("Gears of War 4");
+
+searchGiantBombCastDescription("Gears 4");
