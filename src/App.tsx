@@ -1,6 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './air-jordan-logo.png';
+import {quickSearch} from './gb_searcher'
 import './App.css';
+
+function clickMe() {
+  alert(quickSearch());
+}
 
 function App() {
   return (
@@ -18,6 +23,7 @@ function App() {
         >
           Classic Giant Bombcast lister coming soon!
         </a>
+        <button onClick={clickMe}>Button</button>
       </header>
     </div>
   );
