@@ -12,11 +12,11 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://open.spotify.com/episode/3QZvw06TYKqnGL7KDj1FwU"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Classic Giant Bombcast lister coming soon!
         </a>
       </header>
     </div>
