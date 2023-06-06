@@ -1,4 +1,4 @@
-import bombCastSpotifyJson from '../json/bombcastFromSpotify_COMPLETE.json';
+import bombCastSpotifyJson from './json/bombcastFromSpotify_COMPLETE.json';
 
 function searchGiantBombCastByDate(year: string, month: string){
     for (const key in bombCastSpotifyJson.feed.episodes) {
@@ -17,7 +17,6 @@ function searchGiantBombCastByDate(year: string, month: string){
 
 function searchGiantBombCastDescription(searchParam: string){
     for (const key in bombCastSpotifyJson.feed.episodes) {
-        // if(key.toString().includes(`${year}`)){
             // @ts-ignore
             if(bombCastSpotifyJson.feed.episodes[key].description.toString().includes(searchParam)){
                 console.log(key);
@@ -29,10 +28,17 @@ function searchGiantBombCastDescription(searchParam: string){
                 console.log(bombCastSpotifyJson.feed.episodes[key].external_urls.spotify);
                 console.log("");
             }
-        // }
+    }
+}
 
-    } 
-        
+export function quickSearch(){
+    for (const key in bombCastSpotifyJson.feed.episodes) {
+        // @ts-ignore
+        if(bombCastSpotifyJson.feed.episodes[key].description.toString().includes("New Yawk")){
+            // @ts-ignore
+            return bombCastSpotifyJson.feed.episodes[key].description
+        }
+    }
 }
 
 // searchGiantBombCastByDate("2017","03");
