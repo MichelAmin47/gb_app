@@ -1,6 +1,6 @@
 import bombCastSpotifyJson from './json/bombcastFromSpotify_COMPLETE.json';
 
-function searchGiantBombCastByDate(year: string, month: string){
+export function searchGiantBombCastByDate(year: string, month: string){
     for (const key in bombCastSpotifyJson.feed.episodes) {
         if(key.toString().includes(`${year}-${month}`)){
             console.log(key);
@@ -47,8 +47,8 @@ export function quickSearch(){
 
 // searchGiantBombCastByDate("2016","01");
 
-searchGiantBombCastDescription("New Yawk");
+// searchGiantBombCastDescription("New Yawk");
 
-searchGiantBombCastDescription("Gears of War 4");
+// searchGiantBombCastDescription("Gears of War 4");
 
-searchGiantBombCastDescription("Gears 4");
+// searchGiantBombCastDescription("Gears 4");
