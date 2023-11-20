@@ -232,3 +232,6 @@ dist
 .idea/jsLibraryMappings.xml
 .idea/modules.xml
 .idea/vcs.xml
+
+# React build
+build

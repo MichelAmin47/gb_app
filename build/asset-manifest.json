@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/gb_app/static/css/main.073c9b0a.css",
-    "main.js": "/gb_app/static/js/main.bc4fb690.js",
+    "main.css": "/gb_app/static/css/main.e01edd6e.css",
+    "main.js": "/gb_app/static/js/main.389b5177.js",
     "static/js/787.6a0e6386.chunk.js": "/gb_app/static/js/787.6a0e6386.chunk.js",
-    "static/media/air-jordan-logo.png": "/gb_app/static/media/air-jordan-logo.51f5aeb26dcc8d1546ee.png",
     "index.html": "/gb_app/index.html",
-    "main.073c9b0a.css.map": "/gb_app/static/css/main.073c9b0a.css.map",
-    "main.bc4fb690.js.map": "/gb_app/static/js/main.bc4fb690.js.map",
+    "main.e01edd6e.css.map": "/gb_app/static/css/main.e01edd6e.css.map",
+    "main.389b5177.js.map": "/gb_app/static/js/main.389b5177.js.map",
     "787.6a0e6386.chunk.js.map": "/gb_app/static/js/787.6a0e6386.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.bc4fb690.js"
+    "static/css/main.e01edd6e.css",
+    "static/js/main.389b5177.js"
   ]
 }

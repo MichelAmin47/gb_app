@@ -30,15 +30,22 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <select 
-          value={selected} 
-          onChange={(e) => setSelected(e.target.value)}>
-          {options.map((value) => (
-          <option value={value} key={value}>
-            {value}
-          </option>
-          ))}
-        </select>
+        {/*<select */}
+        {/*  value={selected} */}
+        {/*  onChange={(e) => setSelected(e.target.value)}>*/}
+        {/*  {options.map((value) => (*/}
+        {/*  <option value={value} key={value}>*/}
+        {/*    {value}*/}
+        {/*  </option>*/}
+        {/*  ))}*/}
+        {/*</select>*/}
+        <input
+            value={selected}
+            onChange={(e) => setSelected(e.target.value)}
+            type={"month"}
+            name={"myInput"}
+        >
+        </input>
         <button
           onClick={() => {
           submit();
@@ -58,7 +65,7 @@ function App() {
         </div>
         <a
           className="App-link"
-          href="https://open.spotify.com/episode/3QZvw06TYKqnGL7KDj1FwU"
+          href="https://open.spotify.com/episode/0WuCre5Lc3zw7TzZhkBbYa"
           target="_blank"
           rel="noopener noreferrer"
         >
